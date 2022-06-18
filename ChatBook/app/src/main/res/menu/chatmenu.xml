@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/idsettings"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/idcall"
+        android:icon="@drawable/ic_twotone_call_24"
+        app:showAsAction="always"
+        android:title="call" />
+
+    <item
+        android:id="@+id/idvideocall"
+        android:icon="@drawable/videocall"
+        app:showAsAction="always"
+        android:title="videocall" />
+</menu>

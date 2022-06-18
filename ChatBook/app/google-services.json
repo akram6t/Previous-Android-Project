@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "253287263187",
+    "firebase_url": "https://mchat-1d7d0-default-rtdb.firebaseio.com",
+    "project_id": "mchat-1d7d0",
+    "storage_bucket": "mchat-1d7d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253287263187:android:268d107f575f36b3eedd26",
+        "android_client_info": {
+          "package_name": "com.chatbook.chatbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253287263187-9er41ei7he5ddmd45l5j4pgagnnh6d1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDcDJz_iUkqhFPFlpG4l4sdsRTxndoD8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253287263187-9er41ei7he5ddmd45l5j4pgagnnh6d1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253287263187:android:2dd4b841b85edf9aeedd26",
+        "android_client_info": {
+          "package_name": "com.mchat.mchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253287263187-9er41ei7he5ddmd45l5j4pgagnnh6d1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDcDJz_iUkqhFPFlpG4l4sdsRTxndoD8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253287263187-9er41ei7he5ddmd45l5j4pgagnnh6d1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

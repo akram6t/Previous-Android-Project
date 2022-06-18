@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "256556574546",
+    "project_id": "salman-khan-c34ae",
+    "storage_bucket": "salman-khan-c34ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256556574546:android:e5f7dbf41f4c0b39c57c8b",
+        "android_client_info": {
+          "package_name": "com.salman.moterspart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256556574546-oovamf89dv8u34f8ol5g606vga6v9bim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHkqPWs5ovhX6j-Tttm05t6tQ7zxQHJeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256556574546-oovamf89dv8u34f8ol5g606vga6v9bim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

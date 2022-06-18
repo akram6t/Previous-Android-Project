@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/image_background"
+	tools:context="link.standen.michael.slideshow.ImageActivity">
+
+	<ImageView
+		android:id="@+id/fullscreen_content"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:keepScreenOn="true"
+		android:contentDescription="@string/image_description"/>
+
+	<!-- Image Details Overlay -->
+	<LinearLayout
+		android:id="@+id/image_details1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|start"
+		android:orientation="vertical"
+		android:visibility="gone"
+		android:background="@color/black_overlay"
+		android:padding="@dimen/overlay_padding">
+
+		<TextView
+			android:id="@+id/image_detail_location1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/primary"/>
+		<TextView
+			android:id="@+id/image_detail_dimensions1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/primary"/>
+		<TextView
+			android:id="@+id/image_detail_size1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/primary"/>
+		<TextView
+			android:id="@+id/image_detail_modified1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/primary"/>
+
+	</LinearLayout>
+
+	<!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fitsSystemWindows="true">
+
+		<android.support.design.widget.CoordinatorLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/snackbar_here">
+
+			<RelativeLayout
+				android:id="@+id/fullscreen_content_controls"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				tools:ignore="UselessParent">
+
+				<LinearLayout
+					android:id="@+id/fullscreen_content_controls_buttons"
+					style="?metaButtonBarStyle"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:layout_centerHorizontal="true"
+					android:background="@color/black_overlay"
+					android:orientation="horizontal">
+
+					<Button
+						android:id="@+id/delete_button"
+						style="?metaButtonBarButtonStyle"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:text="@string/delete_button"/>
+
+					<Button
+						android:id="@+id/share_button"
+						style="?metaButtonBarButtonStyle"
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_weight="1"
+						android:text="@string/share_button"/>
+				</LinearLayout>
+
+				<!-- Image Details Overlay -->
+				<LinearLayout
+					android:id="@+id/image_details2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_above="@+id/fullscreen_content_controls_buttons"
+					android:layout_alignParentStart="true"
+					android:orientation="vertical"
+					android:background="@color/black_overlay"
+					android:padding="@dimen/overlay_padding">
+
+					<TextView
+						android:id="@+id/image_detail_location2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textColor="@color/primary"/>
+					<TextView
+						android:id="@+id/image_detail_dimensions2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textColor="@color/primary"/>
+					<TextView
+						android:id="@+id/image_detail_size2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textColor="@color/primary"/>
+					<TextView
+						android:id="@+id/image_detail_modified2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textColor="@color/primary"/>
+
+				</LinearLayout>
+			</RelativeLayout>
+		</android.support.design.widget.CoordinatorLayout>
+	</FrameLayout>
+
+</FrameLayout>

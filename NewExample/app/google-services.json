@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "830593066449",
+    "project_id": "freecallapp-53e7e",
+    "storage_bucket": "freecallapp-53e7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830593066449:android:907f89d4b671df20b16cf0",
+        "android_client_info": {
+          "package_name": "com.example.newexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830593066449-jef0btthvi1hn9ikhg46v54r3b3f6bcb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv-zjR7kyfLb_dkM0vKeHa0NwrJWNVy88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830593066449-jef0btthvi1hn9ikhg46v54r3b3f6bcb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

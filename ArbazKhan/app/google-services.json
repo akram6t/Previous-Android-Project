@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "359241357196",
+    "project_id": "arbaz-khan-6a4cb",
+    "storage_bucket": "arbaz-khan-6a4cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359241357196:android:615da03b727cf9e58e28a9",
+        "android_client_info": {
+          "package_name": "com.example.arbazkhan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359241357196-21ma8qvmdlui1b0fk1un95qdbno2d3k6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXumt7brejLqLtl_JB3gAPwOwDaVthXAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359241357196-21ma8qvmdlui1b0fk1un95qdbno2d3k6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

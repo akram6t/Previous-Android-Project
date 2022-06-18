@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/changa_medium</item>
+        <item>@font/cutive</item>
+        <item>@font/lemon</item>
+        <item>@font/lemonada_light</item>
+    </array>
+</resources>

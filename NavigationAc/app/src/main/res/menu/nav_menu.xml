@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/id_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item android:id="@+id/id_gallry"
+        android:title="Gallery"
+        android:icon="@drawable/gallery"/>
+
+    <item android:id="@+id/id_faverout"
+        android:title="Feverout"
+        android:icon="@drawable/dil"/>
+</menu>
